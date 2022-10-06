@@ -54,7 +54,7 @@ a {
 }
 
 .heading {
-    font-size: 48px;
+    font-size: 45px;
     font-weight: bolder;
     color: #f9faf8;
 
@@ -69,25 +69,46 @@ p {
     border-radius: 6px;
     background-color: #3882f6;
     border-style: none;
-    padding: 8px 25px;
+    padding: 7px 23px;
     color: #f9faf8;
     font-size: 18px;
 }
 
 /* information css */
 
-.information {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 10rem;
-    text-align: center;
-}
-
-.header-info {
+.header-heading {
     margin-top: -45px;
     text-align: center;
     font-size: 45px;
     font-weight: 900;
     color: #1f2937;
+    
 }
+.information {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10rem;
+    margin: 0 3rem;
+    gap: 2.5rem;
+    text-align: center;
+}
+
+.card {
+    background: #f9faf8;
+    padding: 2rem;
+    border: solid 5px;
+    border-color: #053b93;
+    border-radius: 16px;
+}
+
+.card-images {
+    height: 170px;
+    width: 120px;
+}
+
+.text {
+    color: #1f2937;
+    font-size: 16px;
+}
+
+/* testimonials css */
