@@ -65,7 +65,7 @@ p {
     color: #e5e7eb;
 }
 
-.button {
+.hero-button {
     border-radius: 6px;
     background-color: #3882f6;
     border-style: none;
@@ -86,16 +86,17 @@ p {
 }
 .information {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 10rem;
     margin: 0 3rem;
-    gap: 2.5rem;
+    /* margin-bottom: 5rem; */
     text-align: center;
 }
 
 .card {
     background: #f9faf8;
     padding: 2rem;
+    margin: 0 1.5rem 5rem;
     border: solid 5px;
     border-color: #053b93;
     border-radius: 16px;
@@ -112,3 +113,69 @@ p {
 }
 
 /* testimonials css */
+
+#testimonials {
+    display: flex;
+    justify-content: center;
+    background: #e5e7eb;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
+    width: 1000px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    margin: 2rem 0;
+
+}
+
+/* call to action css */
+
+.contact {
+    padding: 4rem 13rem;
+}
+
+.cta-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #3882f6;
+    border-radius: 12px;
+    padding: 2rem;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.cta-heading {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    padding: 8px 25px;
+    border: solid #e5e7eb;
+    border-radius: 7rem;
+    background: transparent;
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+/* footer css */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
