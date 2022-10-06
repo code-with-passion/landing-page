@@ -3,17 +3,26 @@ body {
     margin: 0;
 }
 
-/* Headers section */
+/* header css */
 .container {
     background: #1f2937;
 }
 
-.header, .hero {
+.header {
+    margin: 0 10rem;
+    padding: .5rem 0;
+}
+
+.navbar, .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 3rem;
-    margin: 0 7rem;
+    padding: 0 3.5rem;
+}
+
+.hero {
+    margin: 5rem 10rem;
+    padding-bottom: 6rem;
 }
 
 .links {
@@ -39,14 +48,9 @@ a {
     font-size: 27px;
 }
 
-.hero {
-    margin: 7rem;
-    padding-bottom: 7rem;
-}
-
 .content {
     flex-wrap: wrap;
-    width: 500px;
+    width: 550px;
 }
 
 .heading {
@@ -65,8 +69,25 @@ p {
     border-radius: 6px;
     background-color: #3882f6;
     border-style: none;
-    padding: 5px 20px;
+    padding: 8px 25px;
     color: #f9faf8;
-    font-size: 16px;
+    font-size: 18px;
 }
 
+/* information css */
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10rem;
+    text-align: center;
+}
+
+.header-info {
+    margin-top: -45px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    color: #1f2937;
+}
